@@ -124,7 +124,16 @@ git push
 
 这样就可以了。
 
+### 切换分支
 
+(1)首先基于远程feature分支创建本地对应的分支
+git branch feature origin/feature
+
+(2)切换到feature分支上
+git checkout feature
+
+(3)push
+git push origin feature
 
 
 
